@@ -7,11 +7,9 @@ import {
   format,
   isAfter,
 } from 'date-fns';
-import pt from 'date-fns/locale/pt';
 import { Op } from 'sequelize';
 
 import Appointment from '../models/Appointment';
-import User from '../models/User';
 
 class AvailableController {
   async index(req, res) {
